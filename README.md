@@ -13,8 +13,8 @@ All data are being sent and received with the **JSON** format.
 
 `localhost:8080/web_services/webresources/web_services?token=BxHJSLP4qLauphWaGbeLEueNBs575s&first_letter=a&last_letter=r`
 
-Tied with sister project [RESTful-Dictionary-Client](https://github.com/Coursal/RESTful-Dictionary-Server).
+Tied with sister project [RESTful-Dictionary-Client](https://github.com/Coursal/RESTful-Dictionary-Client).
 
-Server written and tested in NetBeans 8.2 (requires **JDBC library** for the SQL script and **JSON.simple** jar file, both added in the project directory).
+Server written and tested in NetBeans 8.2 (requires JDBC library for the SQL script and JSON.simple jar file, both added in the project directory).
 
 Database tested in XAMPP.
