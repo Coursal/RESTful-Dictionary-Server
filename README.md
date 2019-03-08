@@ -1,7 +1,10 @@
 # RESTful-Dictionary-Server
 An example of a REST web service server that checks a user's credentials and returns a number of words from a dictionary.
 
-The server consists of two web services, **Login** where the credentials of the user are being checked within a database to return an authentication token and **Words** where based on a token and two letters returns a list of words from a dictionary that start with the first letter and end with the other one.
+### Web services
+* **Login** where the credentials of the user are being checked within a database to return an authentication token. A 90 second timer begins until the expiration of the token.
+
+* **Words** where based on a token and two letters returns a list of words from a dictionary that begin with the first given letter and end with the other one.
 
 All data are being sent and received with the **JSON** format.
 
@@ -12,6 +15,6 @@ All data are being sent and received with the **JSON** format.
 
 Tied with sister project [RESTful-Dictionary-Client](https://github.com/Coursal/RESTful-Dictionary-Server).
 
-Written and tested in NetBeans 8.2 (requires **JDBC library** for the SQL script and **JSON.simple** jar file, both added in the project directory).
+Server written and tested in NetBeans 8.2 (requires **JDBC library** for the SQL script and **JSON.simple** jar file, both added in the project directory).
 
 Database tested in XAMPP.
